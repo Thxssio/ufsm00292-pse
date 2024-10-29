@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "**/frontmatter.json": "jsonc",
+        "**/.frontmatter/config/*.json": "jsonc",
+        "MLTable": "yaml",
+        "optional": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "variant": "cpp",
+        "stdlib.h": "c",
+        "string": "c",
+        "string_view": "c"
+    }
+}
