@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -fdata-sections -O1 -Werror -Wall   -DXPRJ_Release=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}/samd21a" ${PACK_COMMON_OPTIONS} /home/thxssio/projects/ufsm00292-pse/rtos/as_sam_d21/src/ASF/sam0/drivers/system/pinmux/pinmux.c

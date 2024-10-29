@@ -54,7 +54,7 @@ void ConfiguraMarcaTempo(void)
 		*(NVIC_SYSTICK_CTRL) = NVIC_SYSTICK_CLK | NVIC_SYSTICK_INT | NVIC_SYSTICK_ENABLE;  // Inicia
 }
 
-/* rotinas de interrupção necessárias */
+/* rotinas de interrupï¿½ï¿½o necessï¿½rias */
 __attribute__ ((naked)) void SVC_Handler(void)
 {
 	/* Make PendSV and SysTick the lowest priority interrupts. */
